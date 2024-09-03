@@ -1,0 +1,1 @@
+  // x=~x+1;//Doi nguoc dau cua hieu vua tinh duoc o tren 

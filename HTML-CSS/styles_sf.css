@@ -1,0 +1,98 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(115deg,
+            rgba(58, 58, 158, 0.8),
+            rgba(136, 136, 206, 0.7)),
+        url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    text-align: center;
+    color: aliceblue;
+    /* margin: 1em auto; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#description {
+    padding-bottom: 1.5em;
+}
+
+label {
+    display: block;
+    margin: 1rem 0.25rem 1rem 1.73rem;
+    font-family: cursive;
+}
+
+span {
+    font-style: italic;
+}
+
+button {
+    width: 20rem;
+    margin: 2rem 0 3.5rem 12rem;
+    border: none;
+    background-color: rgb(77, 211, 77);
+    min-height: 3rem;
+}
+
+.container {
+    margin: 2em auto;
+    width: 70%;
+}
+
+.child {
+    margin: 0 auto;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+    background-color: rgba(31, 30, 30, 70%);
+    color: aliceblue;
+    padding-top: 20px;
+    border-radius: 0.25em;
+}
+
+input,
+textarea,
+select {
+    width: 95%;
+    /* min-height: 2rem; */
+    font-style: italic;
+}
+
+.radio_input {
+    width: unset;
+    margin: 0 0.75rem;
+    vertical-align: auto;
+    transform: scale(1.5);
+}
+
+.improved {
+    width: unset;
+    margin: 0 0.75rem;
+    transform: scale(1.5);
+}
+
+p {
+    margin: 2rem 0.25rem 0 1.73rem;
+    font-family: cursive;
+}
+
+.select {
+    margin: 0.5rem 1rem 1rem 1rem;
+    min-height: 2rem;
+}
+
+.info {
+    min-height: 2rem;
+    margin-top: 0.5rem;
+    border-radius: 0.5em;
+    border-color: aqua;
+}
+
+#ta {
+    margin: 0 1rem;
+}
